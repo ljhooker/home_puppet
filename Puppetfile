@@ -17,3 +17,7 @@ mod "puppetlabs/apt",	'2.2.2'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'pwcprofiles',
+   :git    => 'git@puppet.theflier.net:pwc-profiles.git',
+   :branch => 'master'
