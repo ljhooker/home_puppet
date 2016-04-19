@@ -20,6 +20,6 @@ mod "lightoze/pkginventory"
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'pwcprofiles',
-   :git    => 'git@puppet.theflier.net:pwc-profiles.git',
+mod 'pwcrepos',
+   :git    => 'git@puppet.theflier.net:pwcrepos.git',
    :branch => 'master'
