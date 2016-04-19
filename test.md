@@ -1,9 +1,15 @@
 - $cronminute
-`Default: 0`
+```javascript
+Default: 0
+```
 - $cronhour
-`Default: 0`
+```javascript
+Default: 0
+```
 - $cronmonthday
-`Default: [15, 30]`
+```javascript
+Default: [15, 30]
+```
 - $cronmonth
 ```javascript
 Default: *
