@@ -5,6 +5,10 @@
 - $cronmonthday
 `Default: [15, 30]`
 - $cronmonth
-`Default: *`
+```javascript
+Default: *
+```
 - $crondayofweek
-`Default: *`
+```javascript
+Default: *
+```
