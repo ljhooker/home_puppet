@@ -7,6 +7,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/apt",	'2.2.2'
 mod "puppetlabs/stdlib"
+mod "lightoze/pkginventory"
 
 
 # Modules from Git
