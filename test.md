@@ -25,6 +25,60 @@ being managed:
 ```
 - $centosrepos
 - $redhatrepos
+```javascript
+{
+	"redhatrepos": [{
+		"local_rhel-7-server-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-7-server-rpms/",
+			"descr": "Local Redhat Server $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		},
+		"local_rhel-7-server-eus-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-7-server-eus-rpms/",
+			"descr": "Local Redhat Server eus $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		},
+		"local_rhel-7-server-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-7-server-rpms/",
+			"descr": "Local Redhat Server $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		},
+		"local_rhel-7-server-extras-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-7-server-rpms/",
+			"descr": "Local Redhat Server extras $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		},
+		"local_rhel-ha-for-rhel-7-server-eus-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-7-server-rpms/",
+			"descr": "Local Redhat Server HA for eus $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		},
+		"local_rhel-rs-for-rhel-7-server-eus-rpms": {
+			"baseurl": "http://tdavdc3.nam.pwcinternal.com/rpm/redhat/7/rhel-rs-for-rhel-7-server-eus-rpms/",
+			"descr": "Local Redhat Server rs for eus $releasever - $basearch",
+			"enabled": 1,
+			"gpgcheck": 1,
+			"sslverify": 0,
+			"proxy": "_none_"
+		}
+	}]
+}
+```
 
 If you are finding that you would like to set any defaults, you can use the following
 variables:
