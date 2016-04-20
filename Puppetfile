@@ -24,6 +24,6 @@ mod 'pwcrepos',
    :git    => 'git@puppet.theflier.net:pwcrepos.git',
    :branch => 'master'
 
-mod 'pwc-profiles',
+mod 'pwcprofiles',
    :git    => 'git@puppet.theflier.net:pwc-profiles.git',
    :branch => 'master'
