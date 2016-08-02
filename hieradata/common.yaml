@@ -5,5 +5,5 @@ message: "This node is using common data"
 puppet_enterprise::master::puppetserver::jruby_max_requests_per_instance: 0
 
 classes: 
-  - profiles::patch
+  - "profiles::patch"
 profiles::patch::environment: vdc_nam
