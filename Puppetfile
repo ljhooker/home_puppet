@@ -26,4 +26,4 @@ mod 'repos',
 
 mod 'profiles',
    :git    => 'git@puppet.theflier.net:profiles.git',
-   :branch => 'master'
+   :branch => 'dev'
