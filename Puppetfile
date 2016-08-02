@@ -20,10 +20,10 @@ mod "lightoze/pkginventory"
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'repos',
-   :git    => 'git@puppet.theflier.net:repos.git',
-   :branch => 'master'
+#mod 'repos',
+#   :git    => 'git@puppet.theflier.net:repos.git',
+#   :branch => 'master'
 
 mod 'profiles',
    :git    => 'git@puppet.theflier.net:profiles.git',
-   :branch => 'dev'
+   :branch => 'master'
