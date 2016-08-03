@@ -1,24 +1,14 @@
 ---
-classes: 
-  - "profiles::monolithicmaster"
-#  - "puppet_enterprise::profile::amq::broker"
-#  - "puppet_enterprise::profile::agent"
-#  - "puppet_enterprise::profile::certificate_authority"
-#  - "puppet_enterprise::license"
-#  - "pe_console_prune"
-#  - "puppet_enterprise::profile::console"
-#  - "pe_repo::platform::el_7_x86_64"
-#  - "pe_repo::platform::ubuntu_1404_amd64"
-#  - "pe_repo"
-#  - "puppet_enterprise::profile::master"
-#  - "puppet_enterprise::profile::mcollective::peadmin"
-#  - "puppet_enterprise::profile::master::mcollective"
-#  - "puppet_enterprise::profile::mcollective::agent"
-#  - "puppet_enterprise::profile::orchestrator"
-#  - "puppet_enterprise::profile::puppetdb"
+
+# Set config profile (will move to role)
+classes: "profiles::monolithicmaster"
 
 
-#puppet_enterprise::profile::master::r10k_remote: "git@github.com:ljhooker/home_puppet.git"
-#puppet_enterprise::profile::master::r10k_private_key: "/opt/puppetlabs/puppet/id_rsa"
-#puppet_enterprise::profile::master::file_sync_enabled: "true"
-#puppet_enterprise::profile::master::code_manager_auto_configure: "true"
+# Vars that must be set
+puppet_enterprise::certificate_authority_host: "puppet.theflier.net"
+puppet_enterprise::console_host: "puppet.theflier.net"
+puppet_enterprise::database_host: "puppet.theflier.net"
+puppet_enterprise::mcollective_middleware_hosts: "puppet.theflier.net"
+puppet_enterprise::pcp_broker_host: "puppet.theflier.net"
+puppet_enterprise::puppet_master_host: "puppet.theflier.net"
+puppet_enterprise::puppetdb_host: "puppet.theflier.net"
