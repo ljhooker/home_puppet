@@ -19,5 +19,5 @@ classes:
 
 puppet_enterprise::profile::master::r10k_remote: "git@github.com:ljhooker/home_puppet.git"
 puppet_enterprise::profile::master::r10k_private_key: "/opt/puppetlabs/puppet/id_rsa"
-puppet_enterprise::profile::master::file_sync_enabled: true
-puppet_enterprise::profile::master::code_manager_auto_configure: true
+puppet_enterprise::profile::master::file_sync_enabled: "true"
+puppet_enterprise::profile::master::code_manager_auto_configure: "true"
